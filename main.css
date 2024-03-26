@@ -1,0 +1,48 @@
+body {
+    background-color: #046163;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.logo {
+    width: 220px;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.step-number {
+    background-color: #409c91;
+    color: #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 20px auto;
+    padding: 17px 9px; 
+}
+
+.step-screenshot {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 200px;
+}
+@media screen and (max-width: 520px) {
+    .step__img {
+        flex-direction: column;
+    }
+}
